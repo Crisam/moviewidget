@@ -1,0 +1,46 @@
+<!--
+Author: Chris Samuel
+Date: 10/3/2013
+Description: Changing views with routes and $location
+
+Though AJAX apps are technically single-page apps ( in the sense that they only load an HTML on the first request,
+and then jusst update areas within the DOM thereafters), we usually have multiple sub-page views that we show or hide fromt he user, as appropiate.
+
+We can use Angular's $route service to manage this scenario for us. Routes let you specify that, for a given URL that the browser points to, Angular should loaf and display a template, and instantiate a 
+controller to provide context for the template.
+
+you Create routes in your application bby calling functions on $routeProvider service as a configuration block.  
+
+**********************************************************
+For the main Template, we'll do something  a bit different.
+**********************************************************
+
+Instead of putting everything in the first page loaded, we'll just create a layout template that we'll put our views into. WE'll place everything that persists from view to 
+view,like our menus, here.
+-->
+
+
+
+
+
+
+<!doctype html>
+<html ng-app="AMail">
+<head>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.js"></script>
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.6.0.js"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script src="angular-routes.js"></script>
+  </head>
+<body>
+    
+    <h1>A-Mail</h1>
+    
+    <div ng-view></div>
+    
+    
+    
+
+    </body>
+    </html>

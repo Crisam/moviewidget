@@ -1,0 +1,186 @@
+[
+    {
+        "rating_count": 26668,
+        "genres": [
+            "Comedy"
+        ],
+        "rated": "R",
+        "language": [
+            "English"
+        ],
+        "rating": 5.6,
+        "country": [
+            "USA"
+        ],
+        "release_date": 20130307,
+        "title": "21 & Over",
+        "year": 2013,
+        "filming_locations": "Santa Clarita, California, USA",
+        "imdb_id": "tt1711425",
+        "directors": [
+            "Jon Lucas",
+            "Scott Moore"
+        ],
+        "writers": [
+            "Jon Lucas",
+            "Scott Moore"
+        ],
+        "actors": [
+            "Miles Teller",
+            "Skylar Astin",
+            "Justin Chon",
+            "Sarah Wright",
+            "Jonathan Keltz",
+            "François Chau",
+            "Russell Hodgkinson",
+            "Daniel Booko",
+            "Russell Mercado",
+            "Josie Loren",
+            "Christiann Castellanos",
+            "Dustin Ybarra",
+            "Samantha Futerman",
+            "Julian Gavilanes",
+            "Josh Truax"
+        ],
+        "plot_simple": "The night before his big medical school interview, a promising student celebrates his 21st birthday with his two best friends.",
+        "poster": {
+            "imdb": "http://ia.media-imdb.com/images/M/MV5BMjI0NTExOTI0N15BMl5BanBnXkFtZTcwMDA0ODE3OA@@._V1_SX214_.jpg",
+            "cover": "http://imdb-poster.b0.upaiyun.com/001/711/425.jpg!cover?_upt=f3ba42381379237679"
+        },
+        "runtime": [
+            "93 min"
+        ],
+        "type": "M",
+        "imdb_url": "http://www.imdb.com/title/tt1711425/",
+        "also_known_as": [
+            "Una noche loca"
+        ]
+    },
+    {
+        "rating_count": 26358,
+        "genres": [
+            "Biography",
+            "Drama",
+            "Sport"
+        ],
+        "rated": "PG-13",
+        "language": [
+            "English"
+        ],
+        "rating": 7.5,
+        "country": [
+            "USA"
+        ],
+        "release_date": 20130412,
+        "title": "42",
+        "year": 2013,
+        "filming_locations": "Rickwood Field - 1137 2nd Avenue W, Birmingham, Alabama, USA",
+        "imdb_id": "tt0453562",
+        "directors": [
+            "Brian Helgeland"
+        ],
+        "writers": [
+            "Brian Helgeland"
+        ],
+        "actors": [
+            "Chadwick Boseman",
+            "Harrison Ford",
+            "Nicole Beharie",
+            "Christopher Meloni",
+            "Ryan Merriman",
+            "Lucas Black",
+            "Andre Holland",
+            "Alan Tudyk",
+            "Hamish Linklater",
+            "T.R. Knight",
+            "John C. McGinley",
+            "Toby Huss",
+            "Max Gail",
+            "Brad Beyer",
+            "James Pickens Jr."
+        ],
+        "plot_simple": "The life story of Jackie Robinson and his history-making signing with the Brooklyn Dodgers under the guidance of team executive Branch Rickey.",
+        "poster": {
+            "imdb": "http://ia.media-imdb.com/images/M/MV5BMTQwMDU4MDI3MV5BMl5BanBnXkFtZTcwMjU1NDgyOQ@@._V1_SX214_.jpg",
+            "cover": "http://imdb-poster.b0.upaiyun.com/000/453/562.jpg!cover?_upt=f174f4c61379237754"
+        },
+        "runtime": [
+            "128 min"
+        ],
+        "type": "M",
+        "imdb_url": "http://www.imdb.com/title/tt0453562/",
+        "also_known_as": [
+            "Untitled Jackie Robinson Project"
+        ]
+    },
+    {
+        "rating_count": 193520,
+        "genres": [
+            "Animation",
+            "Comedy",
+            "Crime",
+            "Family"
+        ],
+        "rated": "PG",
+        "language": [
+            "English"
+        ],
+        "rating": 7.6,
+        "country": [
+            "USA"
+        ],
+        "release_date": 20101013,
+        "title": "Despicable Me",
+        "year": 2010,
+        "imdb_id": "tt1323594",
+        "directors": [
+            "Pierre Louis Padang Coffin",
+            "Chris Renaud"
+        ],
+        "writers": [
+            "Cinco Paul",
+            "Ken Daurio"
+        ],
+        "actors": [
+            "Steve Carell",
+            "Jason Segel",
+            "Russell Brand",
+            "Julie Andrews",
+            "Will Arnett",
+            "Kristen Wiig",
+            "Miranda Cosgrove",
+            "Dana Gaier",
+            "Elsie Fisher",
+            "Pierre Louis Padang Coffin",
+            "Chris Renaud",
+            "Jemaine Clement",
+            "Jack McBrayer",
+            "Danny McBride",
+            "Mindy Kaling"
+        ],
+        "plot_simple": "When a criminal mastermind uses a trio of orphan girls as pawns for a grand scheme, he finds their love is profoundly changing him for the better.",
+        "poster": {
+            "imdb": "http://ia.media-imdb.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMzQ2MTc0Mw@@._V1_SY317_CR0,0,214,317_.jpg",
+            "cover": "http://imdb-poster.b0.upaiyun.com/001/323/594.jpg!cover?_upt=7aed6f5d1379237787"
+        },
+        "runtime": [
+            "95 min"
+        ],
+        "type": "M",
+        "imdb_url": "http://www.imdb.com/title/tt1323594/",
+        "also_known_as": [
+            "Verschrikkelijke ikke"
+        ]
+    },
+    
+    
+    {"rating": 8.3, "genres": ["Drama", "Horror", "Mystery", "Sci-Fi", "Thriller"], "language": ["English"], "title": "American Horror Story", "country": ["USA"], "imdb_url": "http://www.imdb.com/title/tt1844624/", "year": 2011, "episodes": [{"season": 3, "episode": 1}, {"season": 1, "episode": 12, "title": "Afterbirth"}, {"season": 1, "episode": 11, "title": "Birth"}, {"season": 2, "episode": 12, "title": "Continuum"}, {"season": 2, "episode": 7, "title": "Dark Cousin"}, {"season": 1, "episode": 4, "title": "Halloween: Part 1"}, {"season": 1, "episode": 5, "title": "Halloween: Part 2"}, {"season": 1, "episode": 2, "title": "Home Invasion"}, {"season": 2, "episode": 4, "title": "I Am Anne Frank: Part 1"}, {"season": 2, "episode": 5, "title": "I Am Anne Frank: Part 2"}, {"season": 2, "episode": 13, "title": "Madness Ends"}, {"season": 1, "episode": 3, "title": "Murder House"}, {"season": 2, "episode": 3, "title": "Nor'easter"}, {"season": 1, "episode": 7, "title": "Open House"}, {"season": 1, "episode": 6, "title": "Piggy Piggy"}, {"season": 1, "episode": 1, "title": "Pilot"}, {"season": 1, "episode": 8, "title": "Rubber Man"}, {"season": 1, "episode": 10, "title": "Smoldering Children"}, {"season": 2, "episode": 11, "title": "Spilt Milk"}, {"season": 1, "episode": 9, "title": "Spooky Little Girl"}, {"season": 2, "episode": 9, "title": "The Coat Hanger"}, {"season": 2, "episode": 10, "title": "The Name Game"}, {"season": 2, "episode": 6, "title": "The Origins of Monstrosity"}, {"season": 2, "episode": 2, "title": "Tricks and Treats"}, {"season": 2, "episode": 8, "title": "Unholy Night"}, {"season": 2, "episode": 1, "title": "Welcome to Briarcliff"}], "imdb_id": "tt1844624", "filming_locations": "Hidden Valley, Thousand Oaks, California, USA", "rating_count": 68541, "actors": ["Evan Peters", "Jessica Lange", "Lily Rabe", "Zachary Quinto", "Sarah Paulson", "Frances Conroy", "Joseph Fiennes", "Lizzie Brocher\u00e9", "James Cromwell", "Taissa Farmiga", "Connie Britton", "Dylan McDermott", "Denis O'Hare"], "plot_simple": "An anthology series that centers on different characters and locations, including a haunted house, an insane asylum and a witch coven.", "poster": {"imdb": "http://ia.media-imdb.com/images/M/MV5BNDQ3NDgyMTg5MV5BMl5BanBnXkFtZTgwMDMzOTAwMDE@._V1_SX214_.jpg", "cover": "http://imdb-poster.b0.upaiyun.com/001/844/624.jpg!cover?_upt=6e4b33f91379240708"}, "runtime": ["60 min"], "type": "TVS", "also_known_as": ["Ameri\u010dka horor pri\u010da"]},
+    
+    {"rating_count": 18011, "genres": ["Action", "Crime", "Mystery", "Thriller"], "language": ["English", "German"], "rating": 4.9, "country": ["USA"], "release_date": 20130112, "title": "Alex Cross", "year": 2012, "filming_locations": "Bali, Indonesia", "imdb_id": "tt1712170", "directors": ["Rob Cohen"], "writers": ["Marc Moss", "Kerry Williamson"], "actors": ["Tyler Perry", "Edward Burns", "Matthew Fox", "Jean Reno", "Carmen Ejogo", "Cicely Tyson", "Rachel Nichols", "John C. McGinley", "Werner Daehn", "Yara Shahidi", "Sayeed Shahidi", "Bonnie Bentley", "Stephanie Jacobsen", "Giancarlo Esposito", "Chad Lindberg"], "plot_simple": "A homicide detective is pushed to the brink of his moral and physical limits as he tangles with a ferociously skilled serial killer who specializes in torture and pain.", "poster": {"imdb": "http://ia.media-imdb.com/images/M/MV5BMjE1MDE0NjUyMV5BMl5BanBnXkFtZTcwNjQzNjg5Nw@@._V1_SX214_.jpg", "cover": "http://imdb-poster.b0.upaiyun.com/001/712/170.jpg!cover?_upt=db48b56f1379244839"}, "runtime": ["101 min"], "type": "M", "imdb_url": "http://www.imdb.com/title/tt1712170/", "also_known_as": ["Burning Cross"]}
+    
+    
+    
+    
+]
+
+
