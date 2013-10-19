@@ -1,0 +1,29 @@
+            
+<div ng-controller="movieListController">
+      
+
+
+<table width="100%" ng-repeat="movies in movies">
+        <tbody><tr>
+      <td width="50" valign="top"><br>
+        <b>{{$index+1}}</b></td>
+      <td>         <table cellspacing="2" cellpadding="1" border="0" style="height:100px">
+  <tbody>
+    <tr>
+      <td width="9" height="60"> </td>
+      <td width="71"><div style="width: 102px; height: 200px; position: relative;"><img alt="" style="position: absolute; top: 0px; left: 0px;"  width="85" border="0" height="120" ng-src="images/{{movies.images}}"></div></td>
+      <td width="200" height="60"><table width="100%">
+          <tbody>
+            <tr>
+              <td colspan="2"><a href="http://www.zmovie.tw/movies/view/wadjda-2012"><font color="#970000" style="font-family: arial; font-style: normal; font-variant: normal; font-weight: normal; font-size: 13px; line-height: normal; font-size-adjust: none; font-stretch: normal;">"<b>{{movies.Title}}</b>"</font></a> </td>
+            </tr>
+            <tr>
+              <td>Genre:</td>
+              <td><span>  <a style="color: gray;" href="#">{{movies.Genre}}</a></span></td>
+            </tr>
+            <tr>
+              <td><b>Release Date:</b></td>
+              <td><a style="color: gray;" href="http://www.zmovie.tw/search/date/5 September 2013">{{movies.Release_Date}} </a></td>
+            </tr>
+              </tbody>
+          </table>

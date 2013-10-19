@@ -66,6 +66,7 @@ Ideal Image Size:870x500
       <script src="js/swfobject_modified.js" type="text/javascript"></script>
       <script src="js/swfobject_modified.js" type="text/javascript"></script>
       <script src="js/carousel.js"rel="stylesheet" type="text/javascript"></script>
+      <script src="js/navigationRoutes.js"rel="stylesheet" type="text/javascript"></script>
       <script src="js/carouFredSel-6.2.1.js" type="text/javascript"></script>
       <link href="css/carousel.css" type="text/css">
       <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
@@ -159,9 +160,9 @@ right:100px;
          
 <div class="navbar-collapse collapse" id="navbar-main">
   <ul class="nav nav-tabs">
-  <li class="active"><a href="index.html">Movie Widget</a></li>
+  <li class="active"><a href="#/home">Movie Widget</a></li>
   <li><a href="#">Profile</a></li>
-  <li><a href="moviesearch.html">Search My Movies</a></li>
+  <li><a href="#/search">Search My Movies</a></li>
   <li><a href="order.html">Order</a></li>
   <li><a href="#">FAQ</a></li>
   <li><a href="contact.html">Contact</a></li>
@@ -196,7 +197,7 @@ right:100px;
       </ul>
     
         
-  <!--- 
+  <!---
     ***Remove slideshow 
  
 <div class="slideshow">
@@ -214,32 +215,14 @@ right:100px;
  <h1 style="
 text-align:right">DVDEPOT</h1>
       
-             
-<div ng-controller="CarouselController">
-      
-
-<carousel interval="myInterval">
-    <slide ng-repeat="images in slides" active="slide.active">
-      <img ng-src="images/{{images.images}}" style="margin:auto;" width="100" height="150">
-      
-        <!-- 
-        <div class="carousel-caption">
-        <h4>Slide {{$index}}</h4>
-        <p>{{images.Summary}}</p>
-      </div>--->
-    </slide>
-  </carousel>
-    
-    
-        
-    </div>
+ <div ng-view></div>
      
 
           </div>   
          </div>
          </div>
          </div>
-     </div>
+     
 </body>
 
 </html>
