@@ -56,7 +56,77 @@ Ideal Image Size:870x500
 <!--jQuery library-->
 <script type="text/javascript" src="../lib/jquery-1.9.1.min.js"></script>
 
-</head>
+    <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="../lib/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript">
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+    
+     visible:7
+    });
+});
+
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+                fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+        });
+       $("#foo2").carouFredSel({
+
+    circular: false,
+
+    infinite: false,
+
+    auto    : true,
+
+    prev    : {
+        button  : "#foo2_prev",
+
+        key     : "left"
+
+    },
+
+    next    : {
+        button  : "#foo2_next",
+
+        key     : "right"
+    },
+
+    pagination  : "#foo2_pag"
+
+});
+});
+</script>
+ 
+
+<style type="text/css">
+/*** set the width and height to match your images li {
+display:inline    
+    
+    }**/
+
+.slideshow img {
+height:250px;
+width:450px;
+padding: 0;  
+margin-top:10px;
+position:absolute;
+right:100px;
+
+}
+    
+</style>
+
+
+ </head>
+    
+    
+    
+    
+    
     
  <!--- Start adding body code --->
  <body background="movWidTest/images/homepgBk.jpg">
@@ -89,7 +159,44 @@ Ideal Image Size:870x500
             
      <div class="well">      
         
-  
+  <div id="wrap">
+  <ul id="mycarousel" class="jcarousel-skin-tango">
+      <li><img src="movWidTest/images/0003.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0092.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0023.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0113.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0020.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0021.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0022.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0023.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0013.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0024.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0025.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0026.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0027.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0028.jpg" width="85" height="120" alt="" /></li>
+      <li><img src="movWidTest/images/0029.jpg" width="85" height="120" alt="" /></li>
+      </ul>
+    
+        
+  <!---
+    ***Remove slideshow 
+ 
+<div class="slideshow">
+<img src="images/AssaultOnWallStreet.jpg" />
+<img src="images/21over_fb-21.jpg" />
+<img src="images/42Logo.jpg" />
+<img src="images/AHS_banner.jpg"/>
+<img src="images/AlexCross.jpg"/>
+
+<img src="images/Brave_theMovie.jpg" width="150px" height="200px"/>
+    
+</div>
+    --->
+   
+ <h1 style="
+text-align:right">DVDEPOT</h1>
+      
       
  <div ng-view></div>
      
