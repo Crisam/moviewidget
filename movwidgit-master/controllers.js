@@ -1,20 +1,19 @@
 // Create a module for our core AMail services
-var aMailServices = angular.module('AMail', []);
+var movieServices = angular.module('MovWid', []);
 
 // Set up our mappings between URLs, templates, and controllers
 function emailRouteConfig($routeProvider) {
   $routeProvider.
-    when('/', {
-      controller: movieListController,
-      templateUrl: 'list.html'
-    }).
+    when('/', {controller: CarouselController, templateUrl: 'home.html'}).
 // Notice that for the detail view, we specify a parameterized URL component
 // by placing a colon in front of the id
-    when('/detail', {controller: CarouselController, templateUrl: 'detail.html'}).
-    when('/faq', {controller: CarouselController, templateUrl: 'faq.html'}).
+  /* 
+    when('/faq',     {controller: CarouselController, templateUrl: 'faq.html'}).
     when('/contact', {controller: CarouselController, templateUrl: 'contact.html'}).
-    when('/order', {controller: CarouselController, templateUrl: 'order.html'}).
-    
+    when('/profile', {controller: CarouselController, templateUrl: 'profile.html'}).
+    when('/order',   {controller: CarouselController, templateUrl: 'order.html'}).
+    when('/search',  {controller: CarouselController, templateUrl: 'search.html'}).
+  */ 
   
   otherwise({
       redirectTo: '/'
@@ -22,7 +21,7 @@ function emailRouteConfig($routeProvider) {
 }
 
 // Set up our route so the AMail service can find it
-aMailServices.config(emailRouteConfig);
+movieServices.config(emailRouteConfig);
 
 // Some fake emails
 movies = [{
@@ -58,7 +57,7 @@ movies = [{
 
 // Publish our messages for the list template
 function movieListController($scope) {
-  $scope.movies = movies;
+  $scope.slides = slides;
 }
 
 // Get the message id from the route (parsed from the URL) and use it to
