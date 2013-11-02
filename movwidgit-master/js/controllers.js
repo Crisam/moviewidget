@@ -2,16 +2,16 @@
 var movieServices = angular.module('MovWid', []);
 
 // Set up our mappings between URLs, templates, and controllers
-function emailRouteConfig($routeProvider) {
+function webRouteConfig($routeProvider) {
   $routeProvider.
-    when('/', {controller: CarouselController, templateUrl: 'home.html'}).
+    when('/', {controller: CarouselController, templateUrl: 'partials/home.html'}).
 // Notice that for the detail view, we specify a parameterized URL component
 // by placing a colon in front of the id
-    when('/faq',     {controller: CarouselController, templateUrl: 'faq.html'}).
-    when('/contact', {controller: CarouselController, templateUrl: 'contact.html'}).
-    when('/profile', {controller: CarouselController, templateUrl: 'profile.html'}).
-    when('/order',   {controller: CarouselController, templateUrl: 'order.html'}).
-    when('/search',  {controller: CarouselController, templateUrl: 'search.html'}).
+    when('/faq',     {controller: CarouselController, templateUrl: 'partials/faq.html'}).
+    when('/contact', {controller: CarouselController, templateUrl: 'partials/contact.html'}).
+    when('/profile', {controller: CarouselController, templateUrl: 'partials/profile.html'}).
+    when('/order',   {controller: CarouselController, templateUrl: 'partials/order.html'}).
+    when('/search',  {controller:CarouselController,templateUrl:'partials/search.html'}).
     
   
   otherwise({
@@ -20,7 +20,7 @@ function emailRouteConfig($routeProvider) {
 }
 
 // Set up our route so the AMail service can find it
-movieServices.config(emailRouteConfig);
+movieServices.config(webRouteConfig);
 
 // Some fake emails
 movies = [{

@@ -1,0 +1,33 @@
+<!--
+Author: Chris Samuel
+Date: 11/2/2013
+Description: User Authentication
+
+
+Adding an HTML Editing Tool
+
+    This simple Weblog is quite adequate for many purposes. but it has one big disadvantage: You can't write up your dailt entries using the Web itself. Instead, you must create each entry 
+    using a text editor like emacs or Notepad and save it to your Web server's docroot. This can be a significant issue over time, especially if you are not allowed telnet/ssh/FTP access to your server or
+    aren't comfortable witht he process. HTTP is the next logical  step for many users.. and is probably no less unsafe than using FTP.
+    
+    
+    This process has noe big problem: you need to give read /write persmission to the HTTP user ( usually Nobody ) in a particular directory. This is an inherently insecure process, and we do
+    not recommend it in the long run. We'll describe the HTTP tools here so that you can become comfortable with the new aspects before moving on to a better solution, which is using a database instead
+    of separate include() files for each entry. We'll also try to keep the secuiry problems to a minimum, emplying a password and letting you send mail to yourself if an unauthorized person tries to log in.
+    
+    
+    The files you need for an HTML-based filed writing tool are:
+    
+        login.php
+        logentry.php
+        logentry_handler.php
+        password.inc
+        
+    Put password.inc in a directory outside the Web tree, such as /home/htmluser. This will ensure that your passwords cannot be read via the web without being processed by PHP first. The directory must
+    be world-executable and the document must be readable by the httpd user; if not, you may have to make the file world-readable, which is a security breach. Be sure to use a password different from your system user password,
+    just in case it's comprimised.
+    
+    Listing 43-8: Weblog entry login screen (login.php)
+    
+    
+--->

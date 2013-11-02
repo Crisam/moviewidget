@@ -74,7 +74,7 @@ Ideal Image Size:870x500
      <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.6.0.js"></script>
      <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
      
-    <<script src="js/movieSlider.js"></script>
+    <script src="js/movieSlider.js"></script>
     <link rel="stylesheet" href="style.css">
 <script type="text/javascript" src="../lib/jquery.jcarousel.min.js"></script>
     <script type="text/javascript">
